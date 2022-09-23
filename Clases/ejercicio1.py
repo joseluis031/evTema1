@@ -14,7 +14,8 @@ matriz = [
 def matriz2(matriz):
     for i in range(len(matriz)):
         suma = matriz[slice(len(matriz)-1)]
-        print(suma)
+        matriz[i][3] = sum(suma) #selecciono la columna que quiero de cada fila
+
 
 uno = matriz2(matriz)
 print(uno)
