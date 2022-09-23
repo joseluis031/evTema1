@@ -9,8 +9,12 @@ matriz = [
     [4, 4, 4, 13]
 
 ]
-leer = len(matriz)
-print(leer)
 
-suma = matriz[slice(len(matriz)-1)]
-print(suma)
+
+def matriz2(matriz):
+    for i in range(len(matriz)):
+        suma = matriz[slice(len(matriz)-1)]
+        print(suma)
+
+uno = matriz2(matriz)
+print(uno)
