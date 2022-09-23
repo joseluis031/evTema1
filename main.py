@@ -8,3 +8,5 @@ if __name__ == "__main__":
         palabra = input("Introduce el texto que quieras: ")
         dos = contar(palabra)
         dos
+    if main == 3:
+        from Clases.ejercicio3 import *
