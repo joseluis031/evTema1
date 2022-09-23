@@ -11,9 +11,9 @@ def tabla(f,c,d):
     elif c<1 or c>9 or f<1 or f>9:
         print("Error, index out of range...")
     else:
-        d.append(f)
-        d.append(c)
-        print(d)
+        for i in range(len(d)):
+            d.append(f)
+            print(d)
         
 
 tabla(f,c,d)
