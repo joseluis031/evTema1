@@ -4,4 +4,7 @@ if __name__ == "__main__":
         from Clases.ejercicio1 import *
         print(matriz)
     if main == 2:
-        palabra = input()
+        from Clases.ejercicio2 import *
+        palabra = input("Introduce el texto que quieras: ")
+        dos = contar(palabra)
+        dos
