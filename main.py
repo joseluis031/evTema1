@@ -8,5 +8,10 @@ if __name__ == "__main__":
         palabra = input("Introduce el texto que quieras: ")
         dos = contar(palabra)
         dos
-    if main == 3:
+    if main == 3:  #he intentado varias formas pero no he conseguido que me de todas las listas, por separado si
         from Clases.ejercicio3 import *
+    if main ==4:
+        from Clases.ejercicio4 import *
+        filas =int(input("introduce el numero de filas: "))
+        column =int(input("introduce el numero de columnas: "))
+        cuatro = tabla(filas,column)
