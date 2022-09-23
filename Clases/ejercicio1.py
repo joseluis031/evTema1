@@ -9,3 +9,8 @@ matriz = [
     [4, 4, 4, 13]
 
 ]
+leer = len(matriz)
+print(leer)
+
+suma = matriz[slice(len(matriz)-1)]
+print(suma)
