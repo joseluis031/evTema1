@@ -1,19 +1,20 @@
 from tabulate import tabulate
 
-f =int(input("introduce el numero de filas: "))
-c =int(input("introduce el numero de columnas: "))
+filas =int(input("introduce el numero de filas: "))
+column =int(input("introduce el numero de columnas: "))
 d=[]
-def tabla(f,c,d):
+def tabla(filas,column,d):
     d = []
-    if f<1 or f>9 and c<1 or c>9 :
+    if filas<1 or filas>9 and column<1 or column>9 :
         print("Error, index out of range...")
     
-    elif c<1 or c>9 or f<1 or f>9:
+    elif column<1 or column>9 or filas<1 or filas>9:
         print("Error, index out of range...")
     else:
-        for i in range(len(d)):
-            d.append(f)
-            print(d)
+        for f in range(filas):
+            print("f")
+            for c in range(column):
+                print(" * ", end='')
         
 
-tabla(f,c,d)
+tabla(filas,column,d)
